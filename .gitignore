@@ -1,4 +1,5 @@
 .venv/
+__pyc*
 bank*
 calc*
 coin*
