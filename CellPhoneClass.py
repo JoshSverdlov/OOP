@@ -1,15 +1,15 @@
 class CellPhone:
 
-    def __init__(self,manufact, model,rp):
-        self.__manufact = manufact 
-        self.__model = model 
+    def __init__(self,man, mod,rp):
+        self.__manufact = man 
+        self.__model = mod 
         self.__retail_price = rp
 
-    def set_manufact(self, __manufact):
-        self.__manufact = __manufact
+    def set_manufact(self, man):
+        self.__manufact = man
 
-    def set_model(self, __model):
-        self.__model = __model
+    def set_model(self, mod):
+        self.__model = mod
 
     def set_retail_price(self, rp):
         self.__retail_price = rp
