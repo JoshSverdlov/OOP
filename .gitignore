@@ -1,1 +1,4 @@
 .venv/
+bank*
+calc*
+coin*
